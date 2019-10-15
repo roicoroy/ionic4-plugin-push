@@ -28,26 +28,26 @@ export class AppComponent {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
-      // this.push.hasPermission().then((isEnabled)=>{
-      //   return true;
-      // })
-      // to check if we have permission
-      this.push.hasPermission()
-        .then((res: any) => {
-          if (res.isEnabled) {
-            console.log('We have permission to send push notifications');
-          } else {
-            console.log('We do not have permission to send push notifications');
-          }
 
-        });
+      this.push.hasPermission().then((isEnabled)=>{
+        return true;
+      })
+      // to check if we have permission
+      // this.push.hasPermission()
+      //   .then((res: any) => {
+      //     if (res.isEnabled) {
+      //       console.log('We have permission to send push notifications');
+      //     } else {
+      //       console.log('We do not have permission to send push notifications');
+      //     }
+
+      //   });
       const options: PushOptions = {
         android: {
-          senderID: "783637155815",
+          senderID: "32953671586",
           forceShow: true,
           sound: true,
           iconColor:'pink',
-
         },
         ios: {
           alert: 'true',
