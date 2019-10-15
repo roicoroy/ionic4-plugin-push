@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "783637155815",
+    "firebase_url": "https://flow-ionic.firebaseio.com",
+    "project_id": "flow-ionic",
+    "storage_bucket": "flow-ionic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783637155815:android:e364e63b03529035",
+        "android_client_info": {
+          "package_name": "ionic.plugin.push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783637155815-o3t9hjud3vsftdgf71r7qdnehpc88aed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR4ge9wKnxxlMPRT_K2ZnMCGo0tTZJy1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783637155815-o3t9hjud3vsftdgf71r7qdnehpc88aed.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "783637155815-tds43cnrq1lec3h3k09uu3up2404nljp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ionic.flow"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783637155815:android:69ac4cf81006bad1",
+        "android_client_info": {
+          "package_name": "uk.cordova.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783637155815-614f3s381akambikdpj9ildolgvoelqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uk.cordova.fcm",
+            "certificate_hash": "24b49677617632544197c962f10eaf60075e3751"
+          }
+        },
+        {
+          "client_id": "783637155815-o3t9hjud3vsftdgf71r7qdnehpc88aed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR4ge9wKnxxlMPRT_K2ZnMCGo0tTZJy1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783637155815-o3t9hjud3vsftdgf71r7qdnehpc88aed.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "783637155815-tds43cnrq1lec3h3k09uu3up2404nljp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ionic.flow"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
