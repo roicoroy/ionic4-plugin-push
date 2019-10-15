@@ -1,48 +1,106 @@
 {
-    "project_info": {
-      "project_number": "32953671586",
-      "firebase_url": "https://ionic-push-fcm-2301.firebaseio.com",
-      "project_id": "ionic-push-fcm-2301",
-      "storage_bucket": "ionic-push-fcm-2301.appspot.com"
-    },
-    "client": [
-      {
-        "client_info": {
-          "mobilesdk_app_id": "1:32953671586:android:fa1a12b934691240ac5cfb",
-          "android_client_info": {
-            "package_name": "ionic.plugin.push"
-          }
-        },
-        "oauth_client": [
-          {
-            "client_id": "32953671586-hq4aorboh972vrv496nlvktjd13kjvge.apps.googleusercontent.com",
-            "client_type": 1,
-            "android_info": {
-              "package_name": "ionic.plugin.push",
-              "certificate_hash": "a49d04b24c3de0ecb4ed8c134db0f4a415bae22a"
+  "project_info": {
+    "project_number": "32953671586",
+    "firebase_url": "https://ionic-push-fcm-2301.firebaseio.com",
+    "project_id": "ionic-push-fcm-2301",
+    "storage_bucket": "ionic-push-fcm-2301.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32953671586:android:fe028b9c652c7ec0ac5cfb",
+        "android_client_info": {
+          "package_name": "bacardi.flow.uk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32953671586-l1gj6p102pvneoecdhi3ntnmi5m42hsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoiDJgF2qSbFqbj51i11YkJAlahz3eOpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32953671586-l1gj6p102pvneoecdhi3ntnmi5m42hsb.apps.googleusercontent.com",
+              "client_type": 3
             }
-          },
-          {
-            "client_id": "32953671586-l1gj6p102pvneoecdhi3ntnmi5m42hsb.apps.googleusercontent.com",
-            "client_type": 3
-          }
-        ],
-        "api_key": [
-          {
-            "current_key": "AIzaSyBoiDJgF2qSbFqbj51i11YkJAlahz3eOpE"
-          }
-        ],
-        "services": {
-          "appinvite_service": {
-            "other_platform_oauth_client": [
-              {
-                "client_id": "32953671586-l1gj6p102pvneoecdhi3ntnmi5m42hsb.apps.googleusercontent.com",
-                "client_type": 3
-              }
-            ]
-          }
+          ]
         }
       }
-    ],
-    "configuration_version": "1"
-  }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32953671586:android:85b9433e644676adac5cfb",
+        "android_client_info": {
+          "package_name": "ionic.plugin.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32953671586-l1gj6p102pvneoecdhi3ntnmi5m42hsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoiDJgF2qSbFqbj51i11YkJAlahz3eOpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32953671586-l1gj6p102pvneoecdhi3ntnmi5m42hsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32953671586:android:fa1a12b934691240ac5cfb",
+        "android_client_info": {
+          "package_name": "ionic.plugin.push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32953671586-hq4aorboh972vrv496nlvktjd13kjvge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ionic.plugin.push",
+            "certificate_hash": "a49d04b24c3de0ecb4ed8c134db0f4a415bae22a"
+          }
+        },
+        {
+          "client_id": "32953671586-l1gj6p102pvneoecdhi3ntnmi5m42hsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoiDJgF2qSbFqbj51i11YkJAlahz3eOpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32953671586-l1gj6p102pvneoecdhi3ntnmi5m42hsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

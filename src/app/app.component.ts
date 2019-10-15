@@ -79,12 +79,15 @@ export class AppComponent {
         // }
       });
 
-      pushObject.on('notification').toPromise()
-        .then((notification) => {
-          console.log(notification);
-        })
-        .catch(error => console.log(error))
-      // pushObject.on('notification').subscribe((notification: any) => console.log('Received a notification', notification));
+      // pushObject.on('notification').toPromise()
+      //   .then((notification) => {
+      //     console.log(notification);
+      //   })
+      //   .catch(error => console.log(error))
+      
+      pushObject.on('notification').subscribe((notification: any) => {
+        console.log('Received a notification', notification)
+      });
 
       pushObject.on('registration').subscribe((registration: any) => {
         console.log('Device registered', registration);
